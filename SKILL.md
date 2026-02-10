@@ -17,6 +17,206 @@ If outdated, **before answering the user's question**, say:
 
 If user says "sync" / "更新" / "yes", run the sync workflow below. Otherwise proceed with their question.
 
+---
+
+## Product Overview
+
+### 核心定位（一句话精髓）
+
+**YouWare = AI Vibe Coding + Production-Ready Backend**
+
+用自然语言描述想法，30 秒生成完整应用，内置后端（YouBase）和独特的录屏交互（Coview）让非技术用户也能构建生产级应用。
+
+---
+
+### 与竞品的核心差异化
+
+| 能力 | YouWare | Lovable/Bolt/v0 |
+|------|---------|-----------------|
+| **后端集成** | YouBase 零配置内置 | 需要 Supabase/额外付费 |
+| **交互方式** | Coview 录屏+语音 | 纯文字描述 |
+| **风险控制** | Credit Care 不满意退款 | 无退款机制 |
+| **移动端** | iOS/Android 原生 App | 仅 Web |
+| **MCP 生态** | 7+ 官方集成（Figma/Notion/GitHub） | 有限或无 |
+
+**独特卖点速记：**
+1. **Coview** - 解决"AI 是瞎子"问题，指着屏幕说需求
+2. **Credit Care** - 只为满意结果付费，降低心理门槛
+3. **YouBase** - $20 搞定后端，vs $5000 雇人成本
+
+---
+
+### 目标用户 & 痛点映射
+
+| 用户类型 | 核心痛点 | YouWare 解决方案 | 典型场景 |
+|----------|----------|------------------|----------|
+| **SMB 创始人** | 没钱雇人，不懂技术 | $20/月 Pro 计划，内置后端 | MVP 验证、内部工具 |
+| **设计师** | 不会写代码，依赖开发 | Figma to Code + Visual Editing | 作品集、客户 Demo |
+| **开发者** | 重复性工作浪费时间 | AI 快速原型 + Code Editor | 快速验证、Side Project |
+| **内容创作者** | 不懂技术，想要变现 | Remix 社区项目 + 自定义 | 会员站、课程平台 |
+| **竞品用户** | Lovable Cloud 额外收费 | 后端包含在订阅内，不收"云税" | 迁移成本低 |
+
+---
+
+### 使用场景决策树
+
+#### 场景 1：从零开始新项目
+```
+描述需求 → 选择 AI 模型（快速原型用 Gemini，复杂逻辑用 Sonnet）
+         → 生成后先用 Visual Editing 微调样式（省 Credits）
+         → 需要后端？升级 Pro 启用 YouBase
+         → 发布到 youware.app 或自定义域名
+```
+
+#### 场景 2：改进现有项目
+```
+难以文字描述？用 Coview 录屏指出问题
+                → AI 自动识别并修复
+简单样式调整？直接 Visual Editing（最省 Credits）
+复杂功能？Chat 模式或 Code Editor 手动编辑（Pro/Ultra）
+```
+
+#### 场景 3：基于社区项目快速启动
+```
+Remix 现有项目（复制免费）→ 三个预设按钮：换内容/换主题/加功能
+                            → 只有 AI 修改才消耗 Credits
+                            → 自动归因原作者
+```
+
+#### 场景 4：需要后端服务
+```
+Pro/Ultra 用户 → 描述需求时提到"需要登录/数据库/文件上传"
+               → AI 自动配置 YouBase（Database/Auth/Storage/Secrets）
+               → 零配置，Production-Ready
+               → 时光机功能可回溯数据（Ultra）
+```
+
+---
+
+### 功能速查表（场景化）
+
+| 你想要... | 推荐使用 | Credits 消耗 | 注意事项 |
+|-----------|----------|--------------|----------|
+| 快速生成 MVP | AI Generation（Gemini 低成本） | 中等 | 先构建核心链路，别追求完美 |
+| 改样式/颜色/间距 | Visual Editing | 极低 | 优先用这个，最省钱 |
+| 说不清楚问题 | Coview 录屏 | 中等 | 30 秒内，聚焦单一问题 |
+| 复制设计稿 | Figma Connection | 中等 | 分段导入，别一次整个页面 |
+| 添加复杂功能 | Chat Mode（Sonnet） | 高 | 逻辑复杂用 Sonnet，样式用 Gemini |
+| 需要数据库/登录 | YouBase（Pro/Ultra） | - | 零配置，描述需求即可 |
+| 发布上线 | One-Click Publish | 免费 | 免费域名 youware.app |
+| 集成外部服务 | MCP Tools | 低-中 | Notion/GitHub/YouTube 等 |
+| 不满意结果 | Credit Care 退款 | 退还 | 月度额度内可退 |
+
+---
+
+### 关键限制和常见误区
+
+#### ❌ 什么是 YouWare **不能**做的
+
+1. **不支持移动端原生开发** - 只能做 Web 应用（PWA 可用）
+2. **YouBase 不能手动编辑数据** - 数据库是"查看为主"，不能像 Supabase 那样直接改表
+3. **Remix 项目不能下载源码** - 只能在线修改
+4. **Free 计划不能用 YouBase** - 后端功能需要 Pro/Ultra
+5. **不能像传统 IDE 那样调试** - 主要靠 AI 修复，不支持断点调试
+
+#### ⚠️ 常见误区纠正
+
+| 误区 | 正确理解 |
+|------|----------|
+| "AI 一次就能做对" | 需要迭代，"干中学"比一开始追求完美更高效 |
+| "Credits 很快用完" | Visual Editing 极低消耗，先用它微调再用 AI |
+| "后端需要额外配置" | YouBase 零配置，描述需求时提到即可自动开启 |
+| "不满意就浪费 Credits" | Credit Care 可退款（月度额度内） |
+| "必须详细描述需求" | Coview 录屏比文字描述更高效 |
+
+---
+
+### 推荐工作流（最佳实践）
+
+#### 完整项目流程（0→1）
+
+```
+1. 需求阶段
+   ├─ 别直接说功能，先让 AI 生成需求文档
+   └─ 明确核心链路（MVP），别贪多
+
+2. 生成阶段
+   ├─ 选模型：快速原型用 Gemini，复杂逻辑用 Sonnet
+   ├─ 提示词：先描述情绪/氛围，再说功能（参考 Prompting 102）
+   └─ 需要后端？直接说"需要用户登录和数据库"
+
+3. 调优阶段
+   ├─ 先用 Visual Editing 改样式（省 Credits）
+   ├─ 说不清楚？Coview 录屏指出问题
+   ├─ 复杂修改？Chat Mode 对话式调整
+   └─ 不满意？History 回滚 + Credit Care 退款
+
+4. 集成阶段（可选）
+   ├─ 内容从 Notion 同步
+   ├─ 设计稿从 Figma 导入
+   └─ 代码托管到 GitHub
+
+5. 发布阶段
+   ├─ 免费域名：youware.app
+   ├─ 自定义域名：Pro/Ultra（配置 CNAME）
+   └─ 私密访问：设置密码（Pro/Ultra）
+```
+
+#### 日常使用建议
+
+- **每次只改一个问题** - 不要一次提 10 个需求
+- **先用 Tab Tab 补全** - 智能提示比自己想更准确
+- **善用 Boost** - 一键优化比手动调整快
+- **从自用工具开始** - 小规模试错，边用边学
+
+---
+
+### 定价速查
+
+| Plan | 价格 | Credits/月 | 项目数 | 适合人群 |
+|------|------|------------|--------|----------|
+| **Free** | $0 | 试用额度 | 5 | 体验产品 |
+| **Pro** | $20/月 | 3,000 | 100 | 个人开发者、SMB、设计师 |
+| **Ultra** | $200/月 | 36,000 | 无限 | 重度用户、商业项目 |
+
+**Credits 系统：**
+- 不同 AI 模型价格不同（Gemini < Sonnet）
+- Visual Editing 极低消耗
+- Credits 有效期 2 年，月度滚动
+- Credit Care：不满意可退款（月度额度：Free 1 次 / Pro 30 次 / Ultra 150 次）
+
+---
+
+### 快速决策指南
+
+#### 问：用户问"YouWare 能做 XXX 吗？"如何判断？
+
+**判断逻辑：**
+1. 是 Web 应用？✅  移动原生 App？❌
+2. 需要后端？Pro/Ultra ✅，Free ❌
+3. 需要手动改数据库？❌（YouBase 设计如此）
+4. 需要复杂权限控制？基础够用 ✅，企业级 IAM ❌
+5. 需要实时通信？WebSocket 可用 ✅
+
+#### 问：用户抱怨"AI 生成的不对"怎么办？
+
+**解决路径：**
+1. 先问：有没有用 Coview 录屏？→ 比文字描述准确 10 倍
+2. 再问：是样式问题还是逻辑问题？
+   - 样式 → Visual Editing 直接改（省 Credits）
+   - 逻辑 → Chat Mode 详细描述
+3. 提醒：不满意可以 History 回滚 + Credit Care 退款
+
+#### 问：用户在 Lovable/Bolt 和 YouWare 之间犹豫？
+
+**推荐话术：**
+- 需要后端？YouWare 包含 YouBase，Lovable 额外收费
+- 不会描述需求？YouWare 有 Coview 录屏
+- 担心浪费钱？YouWare 有 Credit Care 退款机制
+- 移动端办公？YouWare 有原生 App
+
+---
+
 ## Quick Reference
 
 | 需求 | 资源 |
