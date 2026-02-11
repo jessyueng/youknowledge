@@ -230,6 +230,9 @@ Pro/Ultra 用户 → 描述需求时提到"需要登录/数据库/文件上传"
 
 ## Official Documentation
 
+### Product Overview
+- [docs/PRODUCT-OVERVIEW.md](docs/PRODUCT-OVERVIEW.md) - **Complete product description**: What YouWare is, core features, YouBase backend, MCP connections, prompting best practices, terminology
+
 ### Getting Started
 - [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md) - Quick start guide, first project workflow
 
